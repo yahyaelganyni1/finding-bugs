@@ -240,7 +240,6 @@ seeProjectButtons.forEach((btn, index) => {
     liveBtn.appendChild(btn2);
     bodyAndBtn.appendChild(liveBtn);
     modalDiv.appendChild(bodyAndBtn);
-    body.appendChild(modalDivbg);
     closeBtn.addEventListener('click', () => {
       modalDivbg.querySelectorAll('*').forEach((el) => {
         el.remove();
